@@ -1,6 +1,6 @@
 # counting_app
 
-# Create software
+## **Create software**
 
 ## Use FastAPI to create the backend in Python
 

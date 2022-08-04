@@ -1,0 +1,33 @@
+#table {
+    background-color: rgb(237, 237, 237);
+    border: 1px solid rgb(125, 125, 125);
+    border-collapse: separate;
+    border-spacing: 0 0;
+    padding: 20px;
+}
+
+#tableContent {
+  
+}
+
+th, td {
+    width: 220px;
+    text-align: left;
+    background-color: rgb(242, 245, 245);
+    padding: 5px;
+    border-bottom: 2px solid rgb(225, 225, 225);    
+}
+
+.buttonStart {
+    margin-top: 20px;
+}
+
+#buttonStart {
+    margin-top: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
