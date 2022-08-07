@@ -112,7 +112,9 @@ You can parse json data using Curl and jq.
 
     curl -s -X POST -H "Content-Type: application/json" -d '{"directory": "/home/sunshine"}' http://127.0.0.1:8000/counting | jq '.'
 
-TODO: make a wireframe, make the front end (HTML, CSS, JS) and show a table off the runs, and have a button to start a new run.
+This cURL command basically has a header that says I'm sending you content of type json and -d stands for data, so its sending data in the type of a dictionary and then its the url that it sends it to.
+
+TODO: make a wireframe, make the front end (HTML, CSS, JS) and show a table of the runs, and have a button to start a new run.
 
 ## Start the server
 In the command line, cc into the directory. Then, start the server with the command:
@@ -127,5 +129,7 @@ There are several ways to make an HTTP reguest using JavaScript, see [here](http
 The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses. It also provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network.
 
 TODO: have a button that does the post, and then once the post has completed, the button would also call the table function in index.js (the loadRuns() function), in order to see the new run right away.
+
+
 
 
