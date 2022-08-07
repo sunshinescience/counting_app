@@ -30,3 +30,6 @@ async def create_item(params: CountingParameters):
     runs[id] = params
     return params
 
+@app.options("/counting")
+async def create_item():
+    return
