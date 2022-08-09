@@ -15,6 +15,12 @@
             <header></header>
             <nav></nav>
             <main>
+                <h1>Folder upload</h1>
+                <label for="folder">Select folder</label>
+                <input type="file" id="folder" webkitdirectory multiple/>
+                <h2>Selected Files</h2>
+                <ul>
+                </ul>
                 <table id="table">
                     <thead>
                         <tr>
@@ -29,11 +35,11 @@
                     <button class="buttonStart" type="button" onclick="loadRuns()">Start</button>
                         -->
                     <!-- <button id="buttonStart" type="button">Remove rows</button> -->
+                    <!-- 
                     <button id="buttonShowExperiments" type="button" onclick="loadRuns()">Show Experiments</button>
+                    -->
                     <button id="buttonNewExperiment" type="button" onclick="createRun()">Create Experiment</button>
                 </div>
-                
-                
             </main>   
             <footer></footer>
         </div>

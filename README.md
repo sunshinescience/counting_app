@@ -25,7 +25,7 @@ pip install "uvicorn[standard]"
 
 And the same for each of the optional dependencies that you want to use.
 
-Then run the command:
+Run the command:
 uvicorn main:app --reload
 
 The command uvicorn main:app refers to:
@@ -130,6 +130,11 @@ The Fetch API provides a JavaScript interface for accessing and manipulating par
 
 TODO: have a button that does the post, and then once the post has completed, the button would also call the table function in index.js (the loadRuns() function), in order to see the new run right away.
 
+### Notes
+If the server doesn't run on the port, check it on this site in chrome:
+http://127.0.0.1:5500/
 
+## Browser compatibility
+In order to use the directory picker, the browser should be in **chrome**.
 
-
+User needs to give access via the browsers dialog boxes in order for the app to access their directory with images.

@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 #table {
     background-color: rgb(237, 237, 237);
     border: 1px solid rgb(125, 125, 125);
@@ -30,4 +34,14 @@ th, td {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none; 
 }
